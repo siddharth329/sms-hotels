@@ -1,0 +1,67 @@
+/*------------------------------------------*/
+/*		NAVIGATION BAR												*/
+/*------------------------------------------*/
+
+.navbar__content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar__brandlogo img {
+	height: 60px;
+}
+
+.navbar__links {
+	display: flex;
+	align-items: center;
+}
+
+.navbar__link {
+	text-decoration: none;
+	color: rgb(224, 224, 224);
+	padding: 0 2rem;
+	font-size: 1.45rem;
+	letter-spacing: .3px;
+}
+
+.navbar__link i {
+	/* margin-top: -7px; */
+	color: currentColor;
+	font-size: 2.2rem;
+}
+
+.navbar__authbtn {
+	display: inline-block;
+	text-decoration: none;
+	color: rgb(224, 224, 224);
+	border: 3px solid rgb(224, 224, 224);
+	border-radius: 100px;
+	padding: 1.2rem 2.2rem;
+	margin-left: 2rem;
+	transition: all .3s;
+}
+.navbar__authbtn:hover {
+	background-color: rgb(224, 224, 224);
+	color: rgb(25, 36, 84);
+}
+
+@media only screen and (max-width: 1250px) {
+	.navbar__content {
+		padding: 0 2rem;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.navbar__link {
+		display: none;
+	}
+
+	.navbar__brandlogo img {
+		height: 40px;
+	}
+
+	.navbar__authbtn {
+		border-radius: 5px;
+	}
+}

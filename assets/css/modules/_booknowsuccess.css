@@ -1,0 +1,13 @@
+.booknowsuccess {
+    height: 300px;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 4rem;
+}
+
+.booknowsuccess div:first-child {
+    font-weight: 500;
+}

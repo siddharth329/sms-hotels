@@ -1,0 +1,28 @@
+@import url(./modules/_config.css);
+@import url(./modules/_navbar.css);
+@import url(./modules/_safetyboxes.css);
+@import url(./modules/_fabulousfree.css);
+@import url(./modules/_locations.css);
+@import url(./modules/_topaccomodations.css);
+@import url(./modules/_form.css);
+@import url(./modules/_search.css);
+@import url(./modules/_booknow.css);
+@import url(./modules/_searchbar.css);
+@import url(./modules/_footer.css);
+@import url(./modules/_booknowsuccess.css);
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 1rem 0;
+}
+
+.header {
+	background-image: linear-gradient(144deg, rgba(25, 36, 84, 0.85), rgba(82, 94, 147, 0.8)),
+		url(../images/banner-background.jpg);
+}
+
+.footer {
+	background-image: linear-gradient(144deg, rgba(25, 36, 84, 0.85), rgba(82, 94, 147, 0.8)),
+	url(../images/banner-background.jpg);
+}

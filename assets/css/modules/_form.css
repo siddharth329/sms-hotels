@@ -1,0 +1,71 @@
+/*------------------------------------------*/
+/*		FORM            											*/
+/*------------------------------------------*/
+
+.form {
+	width: 50rem;
+	margin: 5rem auto;
+	box-shadow: 5px 8px 30px rgba(0, 0, 0, 0.1);
+	padding: 5rem;
+}
+
+.form__group {
+	display: flex;
+	flex-direction: column;
+	margin: 3.2rem 0;
+}
+
+.form__label {
+	margin-bottom: .4rem;
+	font-size: 1.4rem;
+	color: grey;
+}
+
+.form__input {
+	height: 4.5rem;
+	border-radius: 4px;
+	outline: none;
+	border: 2px solid rgb(231, 231, 231);
+	font-size: 1.6rem;
+	padding: 1rem 2rem;
+	font-family: 'Roboto', sans-serif;
+}
+
+.form__btnbox {
+	display: flex;
+	justify-content: space-between;
+}
+
+.form__submitbtn {
+	background: none;
+	width: 45%;
+	padding: 1.5rem 1rem;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	background-color: rgba(0, 0, 139, 0.836);
+	color: white;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+.form__submitbtn:hover {
+	background-color: rgba(0, 0, 139, 0.7);
+}
+
+.form__p {
+	width: 100%;
+	margin-top: 2rem;
+
+	display: flex;
+	justify-content: center;
+}
+
+@media only screen and (max-width: 500px) {
+	.form {
+		width: 85vw;
+		margin: 5rem auto;
+	}
+}
